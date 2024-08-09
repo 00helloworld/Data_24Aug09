@@ -79,5 +79,5 @@ def run_pagerank(file_path):
         print(f'Node {i}: {r[i]}')
 
 
-
-run_pagerank('./files/web-Google.txt')
+if __name__ == '__main__':
+    run_pagerank('./files/web-Google.txt')
